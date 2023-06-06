@@ -1,16 +1,48 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sort Without Articles</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background: url('https://source.unsplash.com/nDqA4d5NL0k/2000x2000');
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+      }
 
-<html>
+      #band {
+        list-style: inside square;
+        font-size: 20px;
+        background: white;
+        width: 500px;
+        margin: auto;
+        padding: 0;
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+      }
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+      #band li {
+        border-bottom: 1px solid #efefef;
+        padding: 20px;
+      }
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+      #band li:last-child {
+        border-bottom: 0;
+      }
 
-</body>
+      a {
+        color: #ffc600;
+        text-decoration: none;
+      }
+    </style>
 
-</html>
+    <ul id='band'></ul>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html
